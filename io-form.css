@@ -1,0 +1,38 @@
+body {
+    font-family: 'open sans', arial
+}
+form label {
+    color: #371e5f;
+    display: inline-block;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-bottom: 0.1em;
+    margin-top: 1em;
+}
+form input, form select {
+    width: 100%;
+    padding: 0.85rem;
+    background: #ddd;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #37135f;
+}
+br {
+    display: none
+}
+form input[type="radio"] { width: auto; display: inline-block }
+
+button {
+    display: inline-block;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin: 0 1rem 1rem 0;
+    background: #37135f;
+    color: #fff; 
+    border: 0px;
+    margin: 2rem 0.5rem 0 0;
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
